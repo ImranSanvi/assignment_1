@@ -234,3 +234,33 @@ form input[type="button"]{
     display: block;
     border: none;
 }
+
+/* footer style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer{
+    background-color: white;
+    text-align: center;
+    padding: 104px 454px 103px 455px;
+}
+
+.footer-tittle{
+    font-size: 100px;
+}
+
+footer p, a{
+    color: #8987A1;
+    font-size: 22px;
+}
+footer a{
+    margin-top: 20px;
+}
+
+.footer-about{
+    display: flex;
+    justify-content: space-around;
+}
