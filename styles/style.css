@@ -10,6 +10,10 @@
     "wdth" 100;
 }
 
+body{
+    background-color: rgba(78, 71, 255, 0.1);
+}
+
 .color-primary{
     color: #4E47FF;
 }
@@ -33,21 +37,200 @@ nav{
     padding: 12px 36px;
     border-radius: 5px;
     border: none;
+    text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+button:hover{
+    background-color: blueviolet;
 }
 
 /* banner */
 
 .banner{
     margin: 150px 267px;
+    padding-bottom: 120px;
 }
 .banner-tittle{
     font-size: 65px;
     font-weight: bold;
+    text-align: center;
 }
 .banner-btn{
-    margin: 37px 367px 152px 367px;
+    display: block;
+    margin: 37px auto;
 }
+.banner-btn a {
+    text-decoration: none;
+}
+
 
 header{
     background-image: url(../Assets/Hero-bg.png);
+}
+
+/* main style */
+main{
+    margin: 0px 160px 0px 140px;
+
+}
+/* style action */
+.dark1{
+    color: #252432;
+}
+.dark2{
+    color: #252432;
+    opacity: 50%;
+}
+.action{
+    margin-top: 116px;
+    display: flex;
+    justify-content: space-between;
+    gap: 220px;
+}
+.action-tittle{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-subtittle{
+    font-size: 24px;
+    font-weight: normal;
+}
+.action-img img {
+    width: 403px;
+    height: 328px;
+   border-radius: 40px;
+}
+
+/* joined style */
+
+.joined{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin-top: 116px;
+    margin-bottom: 137px;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.joined-tittle, .joined-stats{
+    padding : 0px 140px;
+}
+.joined-tittle{
+    font-size: 38px;
+    font-weight: bold;
+    padding: 50px 0px 0px 0px;
+}
+
+.joined-stats{
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-amount, .seassion-amount, .satisfaction-amount{
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.user-amount-tittle, .seassion-amount-tittle, .satisfaction-amount-tittle{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgba(37, 35, 50, 0.5);
+    margin-bottom: 50px;
+}
+
+/* card design */
+.card{
+    margin-bottom: 137px;
+}
+.card-tittle{
+    font-size:40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.card-items{
+    display: flex;
+    gap: 20px;
+}
+.card-stars {
+  width: 100px;
+  height: 20px;
+  background-image: url('../Assets/icon-star.png');
+  background-repeat: repeat-x;
+  background-size: 20px 20px;
+  margin-bottom: 10px;
+}
+
+.card-item{
+    padding: 24px 69px 24px 24px;
+    border-radius: 14px;
+    box-shadow: 0px 6px 50px 0px #746d6d;
+}
+.person{
+    display: flex;
+    gap: 10px;
+}
+.person-info{
+    display: flex;
+    flex-direction: column;
+}
+.person-name{
+    font-weight: bold;
+    color: #757575;
+}
+.date{
+    color: #B3B3B3;
+}
+.person-name, .date{
+    margin: 0px;
+}
+.profile{
+    border-radius: 50%;
+}
+
+/* let style */
+.let{
+    display: flex;
+    gap: 115px;
+    padding: 71px 0px;
+}
+
+.let-tittle{
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.info{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px 0px ;
+}
+
+form input[type="text"], form input[type="email"], form textarea{
+    width: 497px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    display: block;
+    border: none;
+    padding: 20px 32px;
+    box-sizing: border-box;
+}
+
+form textarea{
+    height: 135px;
+}
+
+form input[type="button"]{
+    margin-top: 10px;
+    width: 497px;
+    height: 62px;
+    border-radius: 10px;
+    display: block;
+    border: none;
 }
