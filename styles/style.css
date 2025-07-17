@@ -24,6 +24,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     margin: 0px 150px;
+    padding-top: 50px;
 }
 .nav-tittle{
     color: #4E47FF;
